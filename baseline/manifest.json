@@ -1,0 +1,738 @@
+{
+  "formatVersion": 1,
+  "siteId": "reference-harbour-notes",
+  "source": {
+    "revision": "d6f35dd58be00afeee6fdbf8697e757072568c2f",
+    "directory": "fixtures/reference-site",
+    "files": [
+      {
+        "path": ".gitattributes",
+        "sha256": "b03bf1c11c57b7875b5180518c6b6e984da02f3b4d0e08de65b715c62a44c0e2"
+      },
+      {
+        "path": ".node-version",
+        "sha256": "b911698dc3cf3227d34d0ad6727f1c4408791203c9665de99ab959331a1fb07d"
+      },
+      {
+        "path": ".npmrc",
+        "sha256": "5816c9c0373487af9d9c80d873a721b4ed1ca509c4ef7aa3a0304f315114e9ef"
+      },
+      {
+        "path": "app/components/publication.tsx",
+        "sha256": "953f0a6640528de9016d182b3b6237c68e12cae483d111a8dc2f5c6af063e111"
+      },
+      {
+        "path": "app/components/seed-calculator.tsx",
+        "sha256": "29d5ee610ed114af55bb6ca4f19845e0e575862b0fb9441d837ea7d5f80ab290"
+      },
+      {
+        "path": "app/guides/seed-calculator/page.tsx",
+        "sha256": "eb4ec40cbb7eb61f01e3bce74a9d1319e97fecb05daa2098290f1be1db7f074d"
+      },
+      {
+        "path": "app/guides/visiting/page.tsx",
+        "sha256": "2e950009e7d335d02359a8700a3eecf5cc0f3cd17a3b548fd9748db037009e32"
+      },
+      {
+        "path": "app/journal/2025/04/12/harbour-reopens/page.tsx",
+        "sha256": "8752afad370c5de7e7984f653dba8da99ce225a134215e49a585a248d4c48ac9"
+      },
+      {
+        "path": "app/journal/2025/05/03/seed-exchange/page.tsx",
+        "sha256": "b10a4aaaa3cd1d957fa2b0072d4c373e5a2120cf7eed5f9b784d29119008e6ce"
+      },
+      {
+        "path": "app/layout.tsx",
+        "sha256": "96d7c2d21742c5fb730f0c62bb50dd17b2f7ddc0a7a6e797fdd1bfbfd609e241"
+      },
+      {
+        "path": "app/page.tsx",
+        "sha256": "2b044f8be96664c189cf68c3e0e8330a3dd68add2a6cb5aff357ae9660315feb"
+      },
+      {
+        "path": "app/publications.ts",
+        "sha256": "9e98cc0bfe7fdbbc5a4d58861aa0b2bbba23afb6ec9d1563563f934ec40a941e"
+      },
+      {
+        "path": "app/style.css",
+        "sha256": "93e01e6a68427a3cc5a236de4dac29a3a840977f4d824190dcc1c5524a42f3a1"
+      },
+      {
+        "path": "next.config.ts",
+        "sha256": "2bc3e34a047619a6292b4a93ac193fbfc2a0cd6eb14e1e27561f44b603dc5187"
+      },
+      {
+        "path": "package-lock.json",
+        "sha256": "3c66f1bf83498224217aa11d71d837f09f7baa5cd33730821f894a8f34371981"
+      },
+      {
+        "path": "package.json",
+        "sha256": "4009d0ec237417b2e96a07d6243fd7b4ad09599ff28f9f2fdddaa63884a6076d"
+      },
+      {
+        "path": "public/media/garden.png",
+        "sha256": "1ee864a77e0d8850397cdd5065205601a9da16c531c27630466e46b3cd4cadbd"
+      },
+      {
+        "path": "public/media/harbour.png",
+        "sha256": "654c69468175b62bb73c13582d465285201daf2707ebada6f77462d1810e6809"
+      },
+      {
+        "path": "scripts/baseline.mjs",
+        "sha256": "6e9a5c0d60869aff4aaf33e7984b6272eb037c4aa2d4d9d601fdaf31ac1f4025"
+      },
+      {
+        "path": "scripts/create-media.mjs",
+        "sha256": "c0e2fd5fdcc69ff50d3a42ddb341a2943ba55483f27e402874505e8af5fdf7c4"
+      },
+      {
+        "path": "scripts/reproduce.mjs",
+        "sha256": "b48b4046001870146bc162670d0adbf9e2be4db27f060c57cdbdba03c417c0f9"
+      },
+      {
+        "path": "test/baseline.test.mjs",
+        "sha256": "907864a85f6646fce0435ba02e551b8d6609a2254c6ad0e389740aa8a62d7402"
+      },
+      {
+        "path": "tsconfig.json",
+        "sha256": "fe301561c5f9f7556924d85c875b73846f4fc6891001acb4ce3ca299984d06c0"
+      }
+    ]
+  },
+  "runtime": {
+    "node": "24.15.0",
+    "npm": "10.8.2",
+    "platform": "win32",
+    "architecture": "x64"
+  },
+  "dependencies": {
+    "next": "16.3.5",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "commands": [
+    "npm ci",
+    "npm run build"
+  ],
+  "projection": {
+    "routes": [
+      {
+        "url": "/404.html",
+        "file": "404.html",
+        "title": "Harbour Notes",
+        "description": "Stories and useful notes from a fictional coastal neighbourhood.",
+        "canonical": null,
+        "visibleText": "Skip to content Harbour Notes From the east quay Journal Guides 404 This page could not be found. Harbour Notes is a fictional publication used as a Reference Site. No Client material is included.",
+        "publication": null,
+        "bodyText": null,
+        "links": [
+          {
+            "href": "#content",
+            "text": "Skip to content"
+          },
+          {
+            "href": "/",
+            "text": "Harbour Notes From the east quay"
+          },
+          {
+            "href": "/#journal",
+            "text": "Journal"
+          },
+          {
+            "href": "/#guides",
+            "text": "Guides"
+          }
+        ],
+        "media": [],
+        "conversionBlockers": []
+      },
+      {
+        "url": "/404/",
+        "file": "404/index.html",
+        "title": "Harbour Notes",
+        "description": "Stories and useful notes from a fictional coastal neighbourhood.",
+        "canonical": null,
+        "visibleText": "Skip to content Harbour Notes From the east quay Journal Guides 404 This page could not be found. Harbour Notes is a fictional publication used as a Reference Site. No Client material is included.",
+        "publication": null,
+        "bodyText": null,
+        "links": [
+          {
+            "href": "#content",
+            "text": "Skip to content"
+          },
+          {
+            "href": "/",
+            "text": "Harbour Notes From the east quay"
+          },
+          {
+            "href": "/#journal",
+            "text": "Journal"
+          },
+          {
+            "href": "/#guides",
+            "text": "Guides"
+          }
+        ],
+        "media": [],
+        "conversionBlockers": []
+      },
+      {
+        "url": "/_not-found/",
+        "file": "_not-found/index.html",
+        "title": "Harbour Notes",
+        "description": "Stories and useful notes from a fictional coastal neighbourhood.",
+        "canonical": null,
+        "visibleText": "Skip to content Harbour Notes From the east quay Journal Guides 404 This page could not be found. Harbour Notes is a fictional publication used as a Reference Site. No Client material is included.",
+        "publication": null,
+        "bodyText": null,
+        "links": [
+          {
+            "href": "#content",
+            "text": "Skip to content"
+          },
+          {
+            "href": "/",
+            "text": "Harbour Notes From the east quay"
+          },
+          {
+            "href": "/#journal",
+            "text": "Journal"
+          },
+          {
+            "href": "/#guides",
+            "text": "Guides"
+          }
+        ],
+        "media": [],
+        "conversionBlockers": []
+      },
+      {
+        "url": "/guides/seed-calculator/",
+        "file": "guides/seed-calculator/index.html",
+        "title": "How many seeds do you need? | Harbour Notes",
+        "description": "An interactive seed estimate for a garden bed.",
+        "canonical": "https://reference.example/guides/seed-calculator/",
+        "visibleText": "Skip to content Harbour Notes From the east quay Journal Guides A practical guide How many seeds do you need? An interactive seed estimate for a garden bed. Jon Bell · Reviewed 2025-05-03 Use this estimate when packing seeds for a garden bed. It assumes 25 seeds per square metre and adds a 20% reserve. Estimate your seeds Allow 25 seeds per square metre, plus a 20% reserve. Garden bed area in square metres 60 seeds, including the reserve. The estimate changes when you change the area. Check the seed packet for the spacing required by your variety. The shared garden. Original fixture illustration, CC0. Harbour Notes is a fictional publication used as a Reference Site. No Client material is included.",
+        "publication": {
+          "id": "ref-guide-002",
+          "url": "/guides/seed-calculator/",
+          "title": "How many seeds do you need?",
+          "description": "An interactive seed estimate for a garden bed.",
+          "author": "Jon Bell",
+          "featured": false,
+          "tags": [
+            "garden",
+            "interactive"
+          ],
+          "collection": "guides",
+          "reviewedOn": "2025-05-03",
+          "order": 2
+        },
+        "bodyText": "Use this estimate when packing seeds for a garden bed. It assumes 25 seeds per square metre and adds a 20% reserve. Estimate your seeds Allow 25 seeds per square metre, plus a 20% reserve. Garden bed area in square metres 60 seeds, including the reserve. The estimate changes when you change the area. Check the seed packet for the spacing required by your variety. The shared garden. Original fixture illustration, CC0.",
+        "links": [
+          {
+            "href": "#content",
+            "text": "Skip to content"
+          },
+          {
+            "href": "/",
+            "text": "Harbour Notes From the east quay"
+          },
+          {
+            "href": "/#journal",
+            "text": "Journal"
+          },
+          {
+            "href": "/#guides",
+            "text": "Guides"
+          }
+        ],
+        "media": [
+          {
+            "src": "/media/garden.png",
+            "alt": "An illustrated garden with three planted beds",
+            "width": 720,
+            "height": 360,
+            "bytes": 5631,
+            "sha256": "1ee864a77e0d8850397cdd5065205601a9da16c531c27630466e46b3cd4cadbd"
+          }
+        ],
+        "conversionBlockers": [
+          "interactive-seed-estimate"
+        ]
+      },
+      {
+        "url": "/guides/visiting/",
+        "file": "guides/visiting/index.html",
+        "title": "Plan your visit | Harbour Notes",
+        "description": "Opening hours and access to the reading room.",
+        "canonical": "https://reference.example/guides/visiting/",
+        "visibleText": "Skip to content Harbour Notes From the east quay Journal Guides A practical guide Plan your visit Opening hours and access to the reading room. Harbour Notes · Reviewed 2025-05-01 The reading room is at 8 East Quay in our fictional harbour neighbourhood. Opening hours Tuesday and Thursday: 10:00 to 17:00. Saturday: 10:00 to 14:00. Closed on other days. Access The quay entrance has step-free access. A quiet table and an accessible toilet are on the ground floor. Assistance dogs are welcome. East quay, Harbour Notes. Original fixture illustration, CC0. Harbour Notes is a fictional publication used as a Reference Site. No Client material is included.",
+        "publication": {
+          "id": "ref-guide-001",
+          "url": "/guides/visiting/",
+          "title": "Plan your visit",
+          "description": "Opening hours and access to the reading room.",
+          "author": "Harbour Notes",
+          "featured": true,
+          "tags": [
+            "access"
+          ],
+          "collection": "guides",
+          "reviewedOn": "2025-05-01",
+          "order": 1
+        },
+        "bodyText": "The reading room is at 8 East Quay in our fictional harbour neighbourhood. Opening hours Tuesday and Thursday: 10:00 to 17:00. Saturday: 10:00 to 14:00. Closed on other days. Access The quay entrance has step-free access. A quiet table and an accessible toilet are on the ground floor. Assistance dogs are welcome. East quay, Harbour Notes. Original fixture illustration, CC0.",
+        "links": [
+          {
+            "href": "#content",
+            "text": "Skip to content"
+          },
+          {
+            "href": "/",
+            "text": "Harbour Notes From the east quay"
+          },
+          {
+            "href": "/#journal",
+            "text": "Journal"
+          },
+          {
+            "href": "/#guides",
+            "text": "Guides"
+          }
+        ],
+        "media": [
+          {
+            "src": "/media/harbour.png",
+            "alt": "An illustrated harbour with a red reading room beside the water",
+            "width": 720,
+            "height": 360,
+            "bytes": 2481,
+            "sha256": "654c69468175b62bb73c13582d465285201daf2707ebada6f77462d1810e6809"
+          }
+        ],
+        "conversionBlockers": []
+      },
+      {
+        "url": "/",
+        "file": "index.html",
+        "title": "Harbour Notes",
+        "description": "Stories and useful notes from a fictional coastal neighbourhood.",
+        "canonical": null,
+        "visibleText": "Skip to content Harbour Notes From the east quay Journal Guides Life by the water A place to read. A place to grow. Stories from our neighbourhood, and useful notes for your next visit. East quay, Harbour Notes. Original fixture illustration, CC0. The journal 2025-04-12 The harbour reading room reopens A new chapter for the reading room on the east quay. 2025-05-03 Seeds for the next season Neighbours share seeds and the stories behind them. Useful notes Plan your visit Opening hours and access to the reading room. How many seeds do you need? An interactive seed estimate for a garden bed. Harbour Notes is a fictional publication used as a Reference Site. No Client material is included.",
+        "publication": null,
+        "bodyText": null,
+        "links": [
+          {
+            "href": "#content",
+            "text": "Skip to content"
+          },
+          {
+            "href": "/",
+            "text": "Harbour Notes From the east quay"
+          },
+          {
+            "href": "/#journal",
+            "text": "Journal"
+          },
+          {
+            "href": "/#guides",
+            "text": "Guides"
+          },
+          {
+            "href": "/journal/2025/04/12/harbour-reopens/",
+            "text": "The harbour reading room reopens"
+          },
+          {
+            "href": "/journal/2025/05/03/seed-exchange/",
+            "text": "Seeds for the next season"
+          },
+          {
+            "href": "/guides/visiting/",
+            "text": "Plan your visit"
+          },
+          {
+            "href": "/guides/seed-calculator/",
+            "text": "How many seeds do you need?"
+          }
+        ],
+        "media": [
+          {
+            "src": "/media/harbour.png",
+            "alt": "An illustrated harbour with a red reading room beside the water",
+            "width": 720,
+            "height": 360,
+            "bytes": 2481,
+            "sha256": "654c69468175b62bb73c13582d465285201daf2707ebada6f77462d1810e6809"
+          }
+        ],
+        "conversionBlockers": []
+      },
+      {
+        "url": "/journal/2025/04/12/harbour-reopens/",
+        "file": "journal/2025/04/12/harbour-reopens/index.html",
+        "title": "The harbour reading room reopens | Harbour Notes",
+        "description": "A new chapter for the reading room on the east quay.",
+        "canonical": "https://reference.example/journal/2025/04/12/harbour-reopens/",
+        "visibleText": "Skip to content Harbour Notes From the east quay Journal Guides From the journal The harbour reading room reopens A new chapter for the reading room on the east quay. Mara Holm · 2025-04-12 East quay, Harbour Notes. Original fixture illustration, CC0. The reading room on the east quay opened its doors again on 12 April 2025. Volunteers repaired the shelves and brought the long oak table back into use. A room for everyone There is no membership fee. Bring a book, borrow one from the shelf, or sit beside the window with a cup of tea. We wanted a quiet place that still belongs to everyone. Mara Holm, volunteer Find opening hours in our guide to visiting . Harbour Notes is a fictional publication used as a Reference Site. No Client material is included.",
+        "publication": {
+          "id": "ref-article-001",
+          "url": "/journal/2025/04/12/harbour-reopens/",
+          "title": "The harbour reading room reopens",
+          "description": "A new chapter for the reading room on the east quay.",
+          "author": "Mara Holm",
+          "featured": true,
+          "tags": [
+            "harbour",
+            "community"
+          ],
+          "collection": "articles",
+          "publishedOn": "2025-04-12",
+          "readingMinutes": 2
+        },
+        "bodyText": "East quay, Harbour Notes. Original fixture illustration, CC0. The reading room on the east quay opened its doors again on 12 April 2025. Volunteers repaired the shelves and brought the long oak table back into use. A room for everyone There is no membership fee. Bring a book, borrow one from the shelf, or sit beside the window with a cup of tea. We wanted a quiet place that still belongs to everyone. Mara Holm, volunteer Find opening hours in our guide to visiting .",
+        "links": [
+          {
+            "href": "#content",
+            "text": "Skip to content"
+          },
+          {
+            "href": "/",
+            "text": "Harbour Notes From the east quay"
+          },
+          {
+            "href": "/#journal",
+            "text": "Journal"
+          },
+          {
+            "href": "/#guides",
+            "text": "Guides"
+          },
+          {
+            "href": "/guides/visiting/",
+            "text": "guide to visiting"
+          }
+        ],
+        "media": [
+          {
+            "src": "/media/harbour.png",
+            "alt": "An illustrated harbour with a red reading room beside the water",
+            "width": 720,
+            "height": 360,
+            "bytes": 2481,
+            "sha256": "654c69468175b62bb73c13582d465285201daf2707ebada6f77462d1810e6809"
+          }
+        ],
+        "conversionBlockers": []
+      },
+      {
+        "url": "/journal/2025/05/03/seed-exchange/",
+        "file": "journal/2025/05/03/seed-exchange/index.html",
+        "title": "Seeds for the next season | Harbour Notes",
+        "description": "Neighbours share seeds and the stories behind them.",
+        "canonical": "https://reference.example/journal/2025/05/03/seed-exchange/",
+        "visibleText": "Skip to content Harbour Notes From the east quay Journal Guides From the journal Seeds for the next season Neighbours share seeds and the stories behind them. Jon Bell · 2025-05-03 The shared garden. Original fixture illustration, CC0. On 3 May 2025, neighbours brought 18 packets of seeds to the shared garden. Each packet carried the variety, harvest year, and a short note from its grower. What to bring next time Dry seeds in a labelled paper envelope. The year you collected them. A note about the conditions they grew in. Keep a small reserve for gaps in the beds. Our seed calculator includes a 20% reserve. Harbour Notes is a fictional publication used as a Reference Site. No Client material is included.",
+        "publication": {
+          "id": "ref-article-002",
+          "url": "/journal/2025/05/03/seed-exchange/",
+          "title": "Seeds for the next season",
+          "description": "Neighbours share seeds and the stories behind them.",
+          "author": "Jon Bell",
+          "featured": false,
+          "tags": [
+            "garden",
+            "community"
+          ],
+          "collection": "articles",
+          "publishedOn": "2025-05-03",
+          "readingMinutes": 3
+        },
+        "bodyText": "The shared garden. Original fixture illustration, CC0. On 3 May 2025, neighbours brought 18 packets of seeds to the shared garden. Each packet carried the variety, harvest year, and a short note from its grower. What to bring next time Dry seeds in a labelled paper envelope. The year you collected them. A note about the conditions they grew in. Keep a small reserve for gaps in the beds. Our seed calculator includes a 20% reserve.",
+        "links": [
+          {
+            "href": "#content",
+            "text": "Skip to content"
+          },
+          {
+            "href": "/",
+            "text": "Harbour Notes From the east quay"
+          },
+          {
+            "href": "/#journal",
+            "text": "Journal"
+          },
+          {
+            "href": "/#guides",
+            "text": "Guides"
+          },
+          {
+            "href": "/guides/seed-calculator/",
+            "text": "seed calculator"
+          }
+        ],
+        "media": [
+          {
+            "src": "/media/garden.png",
+            "alt": "An illustrated garden with three planted beds",
+            "width": 720,
+            "height": 360,
+            "bytes": 5631,
+            "sha256": "1ee864a77e0d8850397cdd5065205601a9da16c531c27630466e46b3cd4cadbd"
+          }
+        ],
+        "conversionBlockers": []
+      }
+    ]
+  },
+  "artifact": {
+    "path": "rendered-output.json.gz",
+    "encoding": "gzip-json-base64-files",
+    "sha256": "5db11e2620f499fca246e63ee9cd1422cfdbf42fb6c3c56f2b2b7379702be5fb",
+    "files": [
+      {
+        "path": "404.html",
+        "sha256": "9eb55f91b3666d37b91b535e720e28908ef71034a846e98286bf2c17ff6109b3"
+      },
+      {
+        "path": "404/index.html",
+        "sha256": "9eb55f91b3666d37b91b535e720e28908ef71034a846e98286bf2c17ff6109b3"
+      },
+      {
+        "path": "__next.__PAGE__.txt",
+        "sha256": "c84f7ed11e1a0f2d86cd9eeb7d3ede5ae27f06a2660914d6b90ed699d72bd3e0"
+      },
+      {
+        "path": "__next._full.txt",
+        "sha256": "81c8631ace1236751bc490f97492f2eff235b54b553dcc59dfaa8e7523a84616"
+      },
+      {
+        "path": "__next._tree.txt",
+        "sha256": "641ef6d7b2be69585adeefa352186c5bbeb88bace4a19600fe2117bee5ade8ac"
+      },
+      {
+        "path": "_next/static/chunks/437-37e3231ac684c609.js",
+        "sha256": "891d617dff862d4822bb7dad42ecca48318fc6b113792fc52c6066bfe502ca87"
+      },
+      {
+        "path": "_next/static/chunks/4bd1b696-92152b0f5947070d.js",
+        "sha256": "8dc2c1d71557b434c654ec58acb1441bc0fb200c520ff548f606d88e689ee643"
+      },
+      {
+        "path": "_next/static/chunks/500-721f8650806d0f40.js",
+        "sha256": "85f27d716b2fa732eef817361a7795830b5bdc263e78b32fa28c6dc30a59a13b"
+      },
+      {
+        "path": "_next/static/chunks/794-bd75e607e02db8a4.js",
+        "sha256": "a2d3e6a3051139e047aa5cf6c3314309d5222bea9f55377d9758d12542e741e8"
+      },
+      {
+        "path": "_next/static/chunks/899.5ce6b3cbad015b59.js",
+        "sha256": "12b23761a7567937753843f56b2c72493d50928d7753d25f1db4e84e97e3d018"
+      },
+      {
+        "path": "_next/static/chunks/966.1775eb621d8d3e09.js",
+        "sha256": "4e64e06b8deba77cbbf9487c6d48373939b8a99f235a67a4f71a6b45ad68b055"
+      },
+      {
+        "path": "_next/static/chunks/app/_global-error/page-aba28f88d5781771.js",
+        "sha256": "6b4abe1e19f23770e1f23db931aa4456b149b505e1e8c9c8dfe647b2de4fdd4d"
+      },
+      {
+        "path": "_next/static/chunks/app/_not-found/page-cf49f7f1dad936e5.js",
+        "sha256": "af921060274ad2c1ed8d00f61977d9d4a43e66f6924dcd990d0ca713454f06a4"
+      },
+      {
+        "path": "_next/static/chunks/app/guides/seed-calculator/page-3cc46f3ffa71a144.js",
+        "sha256": "7bca6bea7f2727665d02deccd4d9ca76e9f56b2009ed5db9171d5c8c9c07a0dc"
+      },
+      {
+        "path": "_next/static/chunks/app/guides/visiting/page-bd23e045727fea7b.js",
+        "sha256": "4f7112dd6e40d26cbab030aa48a0ce23415aea96e06ac137feab9873d60e5d96"
+      },
+      {
+        "path": "_next/static/chunks/app/journal/2025/04/12/harbour-reopens/page-c61d5c8876c75580.js",
+        "sha256": "3877009062a9f34c856da205aa2c8e096f9d963e466b2339b977b44dc3f94fdf"
+      },
+      {
+        "path": "_next/static/chunks/app/journal/2025/05/03/seed-exchange/page-c61d5c8876c75580.js",
+        "sha256": "3877009062a9f34c856da205aa2c8e096f9d963e466b2339b977b44dc3f94fdf"
+      },
+      {
+        "path": "_next/static/chunks/app/layout-69772cd453796fd7.js",
+        "sha256": "7996ed0882e88b2866a396a8df7a6102a27583d2b4e890e522c572eba0a51fbd"
+      },
+      {
+        "path": "_next/static/chunks/app/page-c61d5c8876c75580.js",
+        "sha256": "3877009062a9f34c856da205aa2c8e096f9d963e466b2339b977b44dc3f94fdf"
+      },
+      {
+        "path": "_next/static/chunks/framework-0f597d6e68ffafed.js",
+        "sha256": "59f1650bea3e92760936cbe920f3549bf2bed211ef127052998a3d31b17d1601"
+      },
+      {
+        "path": "_next/static/chunks/main-52d1e3d4faf5461c.js",
+        "sha256": "5fead0d64bef86268bb0f1029b8ec7142ccf48d80c43dc1d2e22f865f26480fa"
+      },
+      {
+        "path": "_next/static/chunks/main-app-a8a9ccbe2e5c4ed2.js",
+        "sha256": "8da9664c085d6e3692c2a515d0fccf993a9c9731ca08a6b02617a7555dfac9aa"
+      },
+      {
+        "path": "_next/static/chunks/next/dist/client/components/builtin/app-error-aba28f88d5781771.js",
+        "sha256": "6b4abe1e19f23770e1f23db931aa4456b149b505e1e8c9c8dfe647b2de4fdd4d"
+      },
+      {
+        "path": "_next/static/chunks/next/dist/client/components/builtin/forbidden-aba28f88d5781771.js",
+        "sha256": "6b4abe1e19f23770e1f23db931aa4456b149b505e1e8c9c8dfe647b2de4fdd4d"
+      },
+      {
+        "path": "_next/static/chunks/next/dist/client/components/builtin/global-error-24475a4c5171e573.js",
+        "sha256": "c9b0f3ad9f2d650770de5ea785e435c0fc2de3510c8c4600f770d82d3d6bb578"
+      },
+      {
+        "path": "_next/static/chunks/next/dist/client/components/builtin/not-found-aba28f88d5781771.js",
+        "sha256": "6b4abe1e19f23770e1f23db931aa4456b149b505e1e8c9c8dfe647b2de4fdd4d"
+      },
+      {
+        "path": "_next/static/chunks/next/dist/client/components/builtin/unauthorized-aba28f88d5781771.js",
+        "sha256": "6b4abe1e19f23770e1f23db931aa4456b149b505e1e8c9c8dfe647b2de4fdd4d"
+      },
+      {
+        "path": "_next/static/chunks/polyfills-42372ed130431b0a.js",
+        "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683"
+      },
+      {
+        "path": "_next/static/chunks/webpack-6b2a9649fbb5f436.js",
+        "sha256": "a3575fb054c548f23a03a7a5d5c3dbb1ce20ad4c5de62f3359618735bd1cd42c"
+      },
+      {
+        "path": "_next/static/css/13ca035a63a8717b.css",
+        "sha256": "78f1915450ef61516c56075853601cf0cd0856e7b48475056aa5349a2732f702"
+      },
+      {
+        "path": "_next/static/reference-site-before-remediation-v1/_buildManifest.js",
+        "sha256": "3f7842fca16a287a7b2b067c520e379cae7676175ff19d9199fec089afac851b"
+      },
+      {
+        "path": "_next/static/reference-site-before-remediation-v1/_ssgManifest.js",
+        "sha256": "678f6ce2cb80b1fe72fc67e7412be6e2ab6ada083111b64f7c40d35e3cba5e00"
+      },
+      {
+        "path": "_not-found/__next._full.txt",
+        "sha256": "5e42387bda7de9226047d6bf758b84e237a657174b6b18dd4291365e29b63e99"
+      },
+      {
+        "path": "_not-found/__next._not-found/__PAGE__.txt",
+        "sha256": "d4e5b711e06278a56d03430b58f88e3b2a4c048141ada4799debc00d3563bc0a"
+      },
+      {
+        "path": "_not-found/__next._tree.txt",
+        "sha256": "f042ad2dcccd598997c7d25cd923a9e1d286022eaf101f53a9a11741bfcfd339"
+      },
+      {
+        "path": "_not-found/index.html",
+        "sha256": "9eb55f91b3666d37b91b535e720e28908ef71034a846e98286bf2c17ff6109b3"
+      },
+      {
+        "path": "_not-found/index.txt",
+        "sha256": "5e42387bda7de9226047d6bf758b84e237a657174b6b18dd4291365e29b63e99"
+      },
+      {
+        "path": "guides/seed-calculator/__next._full.txt",
+        "sha256": "b9f145d47e386677a5644dffe6dfd172cef8b551c63f42c8e86bad285cc837cc"
+      },
+      {
+        "path": "guides/seed-calculator/__next._tree.txt",
+        "sha256": "66ccb0d6e0a4daa0372d61b815b26637ec090934530862e005efa347cb1cb4b2"
+      },
+      {
+        "path": "guides/seed-calculator/__next.guides/seed-calculator/__PAGE__.txt",
+        "sha256": "3bed4bae43fe83b3888187145b1b4507941039e5eb3fe53a7e727ff4b630776e"
+      },
+      {
+        "path": "guides/seed-calculator/index.html",
+        "sha256": "8c988856c0403b9fe08408168b5914e41e3f5a2c3fbde4e673aa9fd720d97704"
+      },
+      {
+        "path": "guides/seed-calculator/index.txt",
+        "sha256": "b9f145d47e386677a5644dffe6dfd172cef8b551c63f42c8e86bad285cc837cc"
+      },
+      {
+        "path": "guides/visiting/__next._full.txt",
+        "sha256": "d4a4ff4d13f33c18d914860bf399661cf905cf9470233716a81756ce54dc8d97"
+      },
+      {
+        "path": "guides/visiting/__next._tree.txt",
+        "sha256": "61fa3fbc4e1e67a9204f97a75b730926b54f16589eb8f868b53caae130edcbab"
+      },
+      {
+        "path": "guides/visiting/__next.guides/visiting/__PAGE__.txt",
+        "sha256": "c4093337f0ae68ed69ceb66b7a804daf6401c9e4300c57e989c073513c32e9c0"
+      },
+      {
+        "path": "guides/visiting/index.html",
+        "sha256": "2b52e625e73da31511661239c1e8c78d81bf2bc3bf6443a30f194cc3c5ce34dd"
+      },
+      {
+        "path": "guides/visiting/index.txt",
+        "sha256": "d4a4ff4d13f33c18d914860bf399661cf905cf9470233716a81756ce54dc8d97"
+      },
+      {
+        "path": "index.html",
+        "sha256": "e6d7a22087797f61bf41636e350fba27c4fd478691028d2d675e3346f2b19118"
+      },
+      {
+        "path": "index.txt",
+        "sha256": "81c8631ace1236751bc490f97492f2eff235b54b553dcc59dfaa8e7523a84616"
+      },
+      {
+        "path": "journal/2025/04/12/harbour-reopens/__next._full.txt",
+        "sha256": "c995b5262398a5a76a87088b5f40dd48bbe10a74145cbba4eb155fb3fd9dc456"
+      },
+      {
+        "path": "journal/2025/04/12/harbour-reopens/__next._tree.txt",
+        "sha256": "cb43aca6fc3458aca06d0d2b0054f1352966f98f2d4b9966762ad5805e4a29e9"
+      },
+      {
+        "path": "journal/2025/04/12/harbour-reopens/__next.journal/2025/04/12/harbour-reopens/__PAGE__.txt",
+        "sha256": "1d8ec699e115259be160f3f7ac9a415e8679cca084c1be95689ee98af4dbb73d"
+      },
+      {
+        "path": "journal/2025/04/12/harbour-reopens/index.html",
+        "sha256": "00173d5beb1ba9d9330dbffc96cb88f93dade35c9f813cc35f5e76d8d1bca0ba"
+      },
+      {
+        "path": "journal/2025/04/12/harbour-reopens/index.txt",
+        "sha256": "c995b5262398a5a76a87088b5f40dd48bbe10a74145cbba4eb155fb3fd9dc456"
+      },
+      {
+        "path": "journal/2025/05/03/seed-exchange/__next._full.txt",
+        "sha256": "5bd77970cfd426867caaff94acba241593417b82a061f5296e53233b108ae696"
+      },
+      {
+        "path": "journal/2025/05/03/seed-exchange/__next._tree.txt",
+        "sha256": "30e6bce77ecd1a6448ce147f0c491903575fb48a2e7766eaccddf6d5854fb53b"
+      },
+      {
+        "path": "journal/2025/05/03/seed-exchange/__next.journal/2025/05/03/seed-exchange/__PAGE__.txt",
+        "sha256": "b0fd4464b0a8d80ff4c781264b5b12b7fb0e8510440b0cb3eacd9d478889e7f7"
+      },
+      {
+        "path": "journal/2025/05/03/seed-exchange/index.html",
+        "sha256": "5efb0ff18e892580187f1157004814618d35d48e013aca365101a520bc771b64"
+      },
+      {
+        "path": "journal/2025/05/03/seed-exchange/index.txt",
+        "sha256": "5bd77970cfd426867caaff94acba241593417b82a061f5296e53233b108ae696"
+      },
+      {
+        "path": "media/garden.png",
+        "sha256": "1ee864a77e0d8850397cdd5065205601a9da16c531c27630466e46b3cd4cadbd"
+      },
+      {
+        "path": "media/harbour.png",
+        "sha256": "654c69468175b62bb73c13582d465285201daf2707ebada6f77462d1810e6809"
+      }
+    ]
+  }
+}
