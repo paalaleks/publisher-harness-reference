@@ -4,3 +4,6 @@ dist/
 out/
 .vercel/
 .env*
+
+.publication-read-model.json
+app/publication-data.ts

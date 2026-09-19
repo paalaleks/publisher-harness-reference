@@ -1,1 +1,9 @@
-{"framework":null,"installCommand":"npm ci","buildCommand":"npm run build","outputDirectory":"out"}
+{
+  "framework": null,
+  "installCommand": "npm ci",
+  "buildCommand": "npm run build",
+  "outputDirectory": "out",
+  "git": {
+    "deploymentEnabled": false
+  }
+}
